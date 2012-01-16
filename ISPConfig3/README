@@ -1,0 +1,5 @@
+This script, trigerred by cron or manualy, gather all user's domains and creates symbilic links in 'test' subdirectory of ISPConfig3 webserver. So, if there is webserver with ISPConfig onboard, then script is gathering information about clinets and their domains/websites, and then make symbolic links from client's domains web directories to /var/www/test.
+
+In effect of this script work, we have webserver subdirectories with clients domains. i.e. http://webserver.com/test/exampledomain.com as a test of http://exampledomain.com
+
+This is very usefull if we are planning for migrate website, but don't want to change DNS records before the website migration is done.
